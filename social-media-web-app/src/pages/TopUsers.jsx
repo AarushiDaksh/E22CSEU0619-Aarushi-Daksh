@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getPostsByUserId } from "../api";
 
-
+//hard coded for users
 const USER_IDS = [1, 2, 3, 4, 5]; 
 
 function TopUsers() {
